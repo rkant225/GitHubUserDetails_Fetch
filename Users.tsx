@@ -18,7 +18,7 @@ class Users extends Component<Props, State> {
   render() {
     return (
       <div>
-        <button onClick={()=>this.props.onUsersButtonClick(this.props.userData)}>{this.props.userData.login}</button>
+        <a onClick={()=>this.props.onUsersButtonClick(this.props.userData)}>{this.props.userData.login}</a>
       </div>
 
     );
