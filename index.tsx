@@ -19,7 +19,7 @@ class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
     this.state = {
-      searchText:"",
+      searchText:"Rahul",
       name: 'React',
       searchResult:[],
       displayClickedUser:false,
